@@ -211,4 +211,5 @@ for i in order_list:
 # 11. Calculate the cost of the order using list comprehension
 # Multiply the price by quantity for each item in the order list, then sum()
 # and print the prices.
-final_price = sum([x["Price"] for x in order_list])print(f"Final price for your order is ${final_price}")
+final_price = sum([x["Price"] for x in order_list])
+print(f"Final price for your order is ${final_price}")
